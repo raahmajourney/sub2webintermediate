@@ -1,0 +1,89 @@
+{
+  "id": "/#/",
+  "start_url": "/#/",
+  "scope": "/",
+  "name": "Story App",
+  "short_name": "StoryApp",
+  "description": "Aplikasi berbagi cerita dengan lokasi dan notifikasi update cerita favorit.",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#87CEFA",
+  "icons": [
+    {
+      "src": "images/story.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshoot/d1.png",
+      "sizes": "1916x947",
+      "type": "image/png",
+      "label": "Halaman utama Desktop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshoot/d2.png",
+      "sizes": "1917x938",
+      "type": "image/png",
+      "label": "Halaman Favorite Desktop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshoot/d3.png",
+      "sizes": "1917x941",
+      "type": "image/png",
+      "label": "Halaman add story Desktop",
+      "form_factor": "wide"
+    },
+    {
+      "src": "screenshoot/n1.png",
+      "sizes": "420x854",
+      "type": "image/png",
+      "label": "Halaman utama mobile",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshoot/m2.png",
+      "sizes": "420x854",
+      "type": "image/png",
+      "label": "Halaman Favorite mobile",
+      "form_factor": "narrow"
+    },
+    {
+      "src": "screenshoot/m3.png",
+      "sizes": "420x854",
+      "type": "image/png",
+      "label": "Halaman add mobile",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Buat Story",
+      "short_name": "Story",
+      "description": "Buat story baru yang menarik",
+      "url": "/#/new",
+      "icons": [
+        {
+          "src": "images/add.png",
+          "sizes": "512x512"
+        }
+      ]
+    },
+    {
+      "name": "Lihat Favorit",
+      "short_name": "Favorite",
+      "description": "Lihat stoty favorite saya",
+      "url": "/#/favorite",
+      "icons": [
+        {
+          "src": "images/favorite.png",
+          "sizes": "512x512"
+        }
+      ]
+    }
+  ]
+}
